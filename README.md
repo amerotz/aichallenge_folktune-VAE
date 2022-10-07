@@ -1,7 +1,7 @@
 # aichallenge_folktune-VAE
 My entry for "The Ai Music Generation Challenge 2022" using folktune-VAE.
 
-The generated tunes are found in `tunes.abc` and the midi files are available in `midis.tar.xz`.
+The generated tunes are found in [here](tunes.abc) and the midi files are available [here](midis.tar.xz).
 
 The checkpoint used for sampling is `best_ft.pytorch`. This checkpoint was obtained after fine tuning starting from `best.pytorch`.
 
