@@ -2,6 +2,8 @@ import json
 import os
 import numpy as np
 
+np.random.seed(0)
+
 with open('test.abc', 'r') as f:
     data = f.read()
 
@@ -35,7 +37,7 @@ for (i, reel) in enumerate(data):
 
         reel = reel.split(' ')
         name = f'Reel {i}'
-        reel = f'{reel[0]}\nT:{name}\n{reel[1]}\n{reel[2]}\nL:1/8\n{" ".join(reel[3:])}'
+        reel = f'{reel[0]}\nT:{name}\nM:4/4\n{reel[2]}\nL:1/8\n{" ".join(reel[3:])}'
 
         file = f'tmp/{i}.abc'
         with open(file, 'w') as f:
