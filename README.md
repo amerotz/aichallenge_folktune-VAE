@@ -3,6 +3,7 @@ My entry for "The Ai Music Generation Challenge 2022" using folktune-VAE.
 
 The generated tunes are found [here](tunes.abc) in ABC notation and the midi files are available [here](midis.tar.xz).
 The technical document is available [here](The_Ai_Music_Generation_Challenge_2022_-_Technical_Document.pdf).
+The additional reel to be evaluated is [Reel 979](reel.abc).
 
 This model was part of my Bachelor thesis "[Latent representations for traditional music analysis and generation](https://github.com/amerotz/latent-representations-for-traditional-music-analysis-and-generation)".
 
